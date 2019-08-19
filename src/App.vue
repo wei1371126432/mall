@@ -5,15 +5,14 @@
   </div>
 </template>
 <script>
-import MainTabBar from 'components/MainTabBar'
+import MainTabBar from 'components/content/mainTabBar/MainTabBar'
 export default {
   data() {
     return {};
   },
   components:{
     MainTabBar
-  }
-  
+  } 
 };
 </script>
 <style lang="less" scoped>
